@@ -3,7 +3,9 @@ from builtins import object
 import logging
 
 #check python version
+import six
 if six.PY2:
+
     import exceptions
 else:
     import builtins as exceptions
